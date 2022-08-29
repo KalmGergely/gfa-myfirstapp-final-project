@@ -66,7 +66,6 @@ let loadPhoto = (photoNum) => {
         }
     })
 }
-//should still add the descriptions on hover
 photos.forEach((item, index) => {
     $('#tnContainer').append(`
         <div class="tn">
